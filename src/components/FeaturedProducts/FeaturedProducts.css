@@ -1,0 +1,57 @@
+.featured-slider {
+  padding: 90px 0;
+  background: #000;
+  text-align: center;
+}
+
+.featured-title {
+  margin-bottom: 40px;
+  font-size: 1.3rem;
+  color: #d1d5db;
+}
+
+/* DEFAULT SLIDE */
+.featured-slide {
+  padding: 20px;
+  opacity: 0.35;
+  transform: scale(0.8);
+  transition: all 0.4s ease;
+}
+
+.featured-slide img {
+  height: 140px;
+  margin: 0 auto 14px;
+  object-fit: contain;
+}
+
+.featured-slide h4 {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+
+.featured-slide p {
+  font-size: 0.95rem;
+}
+
+.featured-slide span {
+  color: #6b7280;
+  text-decoration: line-through;
+  font-size: 0.85rem;
+}
+
+/* 🔥 CENTER CARD HIGHLIGHT */
+.slick-center .featured-slide {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* DOTS */
+.slick-dots li button:before {
+  color: #555;
+  font-size: 7px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+}
+ 

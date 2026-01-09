@@ -1,0 +1,27 @@
+.product-details {
+  padding: 60px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.product-details img {
+  max-width: 400px;
+}
+
+.product-details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-details h3 {
+  margin: 20px 0;
+  font-size: 1.6rem;
+}
+
+.product-details button {
+  padding: 12px 30px;
+  background: #d10000;
+  color: white;
+  border-radius: 6px;
+}

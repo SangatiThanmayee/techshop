@@ -1,0 +1,49 @@
+.advantages {
+  padding: 90px 80px;
+  background: #000;
+  text-align: center;
+}
+
+.advantages-title {
+  font-size: 1.3rem;
+  color: #d1d5db;
+  margin-bottom: 60px;
+}
+
+/* ROW */
+.advantages-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+
+/* CARD */
+.advantage-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: center;
+}
+
+/* ICON */
+.advantage-icon {
+  font-size: 1.9rem;
+  color: #ff0000;
+}
+
+/* TEXT */
+.advantage-text {
+  text-align: left;
+}
+
+.advantage-text h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.advantage-text p {
+  font-size: 0.85rem;
+  color: #9ca3af;
+}

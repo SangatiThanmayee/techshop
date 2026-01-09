@@ -1,0 +1,43 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FORCE FULL BLACK BACKGROUND */
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  background-color: #000000; /* PURE BLACK */
+}
+
+/* BODY TEXT */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #ffffff;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* BUTTONS */
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* IMAGES */
+img {
+  width: 100%;
+  display: block;
+}

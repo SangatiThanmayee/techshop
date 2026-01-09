@@ -1,0 +1,48 @@
+.header {
+  height: 70px;
+  background: #0b0b0b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon span {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}

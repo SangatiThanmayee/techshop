@@ -1,0 +1,21 @@
+.all-products {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 30px;
+  padding: 80px;
+  background: #000;
+}
+
+/* FILTER */
+.all-products-filter {
+  position: sticky;
+  top: 80px;
+  height: fit-content;
+}
+
+/* PRODUCTS GRID */
+.all-products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}

@@ -1,0 +1,14 @@
+.hero {
+  padding: 60px 80px;
+}
+
+.hero h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 25px;
+}

@@ -1,0 +1,45 @@
+/* CHECKBOX WRAPPER */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* HIDE REAL CHECKBOX */
+.checkbox input {
+  display: none;
+}
+
+/* CUSTOM BOX */
+.custom-check {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #444;
+  border-radius: 3px;
+  background: transparent;
+  display: inline-block;
+  position: relative;
+}
+
+/* ✅ CHECKED STATE (WHITE BACKGROUND) */
+.checkbox input:checked + .custom-check {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+/* CHECK MARK */
+.checkbox input:checked + .custom-check::after {
+  content: "✓";
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 11px;
+  color: #000;
+}
+.sort-item{
+  color: gainsboro;
+}
